@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ff5c35">
+  <meta name="description" content="Бюро ненормального — експериментальна цифрова лабораторія, де дивні ідеї стають ще дивнішими.">
+  <title>Бюро ненормального — цифрова лабораторія</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до змісту</a>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-orbit" aria-hidden="true"><span></span></div>
+
+  <header class="topbar">
+    <a class="logo magnetic" href="#top" aria-label="Бюро ненормального, на початок">
+      <span>БЮРО</span><span>Н⁄Н</span>
+    </a>
+    <nav aria-label="Головна навігація">
+      <a href="#manifest">Маніфест</a>
+      <a href="#doslidy">Досліди</a>
+      <a href="#contact">Контакт</a>
+    </nav>
+    <button class="chaos-toggle magnetic" type="button" aria-pressed="false">
+      <span class="toggle-dot"></span>
+      <span class="toggle-label">Додати хаосу</span>
+    </button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-kicker reveal">
+        <span>Творча лабораторія</span>
+        <span>49°00′ пн. ш.</span>
+        <span class="live-time" aria-label="Поточний час">00:00:00</span>
+      </div>
+
+      <h1 id="hero-title" class="hero-title" aria-label="Нормально не буде">
+        <span class="title-line line-one reveal">НОРМАЛЬНО</span>
+        <span class="title-line line-two reveal">НЕ БУДЕ<span class="asterisk" aria-hidden="true">✳</span></span>
+      </h1>
+
+      <div class="hero-copy reveal">
+        <p>Ми вигадуємо цифрові штуки, які неможливо проскролити й забути.</p>
+        <a class="round-link magnetic" href="#doslidy">
+          <span>Дивитися<br>досліди</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v17m0 0 7-7m-7 7-7-7"/></svg>
+        </a>
+      </div>
+
+      <div class="creature" aria-hidden="true">
+        <div class="creature-shadow"></div>
+        <div class="creature-body">
+          <div class="eye eye-a"><i></i></div>
+          <div class="eye eye-b"><i></i></div>
+          <div class="mouth"></div>
+        </div>
+        <span class="scribble">не кліпай</span>
+      </div>
+
+      <div class="hero-stamp" aria-hidden="true">
+        <svg viewBox="0 0 150 150">
+          <defs><path id="circle" d="M75,75 m-53,0 a53,53 0 1,1 106,0 a53,53 0 1,1 -106,0"/></defs>
+          <text><textPath href="#circle">НЕПЕРЕДБАЧУВАНО • ГОЛОСНО • ЖИВО • </textPath></text>
+        </svg>
+        <span>↯</span>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Рядок принципів">
+      <div class="ticker-track">
+        <span>ДИЗАЙН БЕЗ ЗАСПОКІЙЛИВОГО</span><i>●</i><span>КИРИЛИЦЯ НА ПОВНУ</span><i>✦</i><span>СЕНС ПЕРЕД ШУМОМ</span><i>●</i>
+        <span aria-hidden="true">ДИЗАЙН БЕЗ ЗАСПОКІЙЛИВОГО</span><i aria-hidden="true">●</i><span aria-hidden="true">КИРИЛИЦЯ НА ПОВНУ</span><i aria-hidden="true">✦</i><span aria-hidden="true">СЕНС ПЕРЕД ШУМОМ</span><i aria-hidden="true">●</i>
+      </div>
+    </div>
+
+    <section class="manifest section-pad" id="manifest" aria-labelledby="manifest-title">
+      <div class="section-label reveal"><span>01</span> Наш маніфест</div>
+      <h2 id="manifest-title" class="manifest-title reveal">Якщо ідея не лоскоче мозок — <em>навіщо вона?</em></h2>
+      <div class="manifest-grid">
+        <article class="rule rule-dark reveal tilt-card">
+          <span class="rule-num">А.</span>
+          <h3>Спочатку<br>«ого!»</h3>
+          <p>Кожен екран має мати пульс. Але за ефектом завжди стоїть думка.</p>
+          <div class="mini-sun" aria-hidden="true"></div>
+        </article>
+        <article class="rule rule-pink reveal tilt-card">
+          <span class="rule-num">Б.</span>
+          <h3>Літери теж<br>говорять</h3>
+          <p>Типографіка — це не упаковка тексту. Це його голос, ритм і характер.</p>
+          <span class="giant-letter" aria-hidden="true">Ї</span>
+        </article>
+        <article class="rule rule-acid reveal tilt-card">
+          <span class="rule-num">В.</span>
+          <h3>Хаос<br>за планом</h3>
+          <p>Несподіванка працює, коли кожен дивний рух веде кудись потрібний.</p>
+          <div class="orbit" aria-hidden="true"><i></i><i></i><i></i></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experiments" id="doslidy" aria-labelledby="experiments-title">
+      <div class="experiments-head section-pad">
+        <div class="section-label reveal"><span>02</span> Вибрані досліди</div>
+        <h2 id="experiments-title" class="reveal">Три способи<br><em>зіпсувати нудьгу</em></h2>
+        <p class="reveal">Не портфоліо, а три уявні світи. Торкай, крути, дратуй.</p>
+      </div>
+
+      <div class="project project-one">
+        <div class="project-meta">
+          <span>01 / ЇЖА + КОСМОС</span>
+          <h3>БОРЩ<br>3000</h3>
+          <p>Айдентика міжгалактичної їдальні, де буряк — головне паливо.</p>
+        </div>
+        <div class="project-art art-borsh" aria-hidden="true">
+          <div class="planet"><span></span></div>
+          <div class="spoon"></div>
+          <b>СМАК<br>МАЄ<br>ОРБІТУ</b>
+          <i class="star s1">✦</i><i class="star s2">✦</i><i class="star s3">✦</i>
+        </div>
+      </div>
+
+      <div class="project project-two">
+        <div class="project-meta">
+          <span>02 / МУЗИКА + ВІТЕР</span>
+          <h3>ГУЛ</h3>
+          <p>Сайт фестивалю звуків, які зазвичай просять зробити тихіше.</p>
+        </div>
+        <div class="project-art art-hum" aria-hidden="true">
+          <div class="sound-word">ГУЛ</div>
+          <div class="wave wave-1"></div><div class="wave wave-2"></div><div class="wave wave-3"></div>
+          <span>▲ НЕ ТИША ▲ НЕ ТИША ▲ НЕ ТИША</span>
+        </div>
+      </div>
+
+      <div class="project project-three">
+        <div class="project-meta">
+          <span>03 / МОДА + ПОМИЛКА</span>
+          <h3>ШОВ<br>НАЗОВНІ</h3>
+          <p>Цифровий журнал про речі, які відмовилися сидіти правильно.</p>
+        </div>
+        <div class="project-art art-seam" aria-hidden="true">
+          <div class="face"><i></i><i></i><b></b></div>
+          <div class="stitch"></div>
+          <span>ВИВЕРНИ<br>НАВИВОРІТ</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="generator section-pad" aria-labelledby="generator-title">
+      <div class="section-label reveal"><span>03</span> Машина ідей</div>
+      <div class="generator-layout">
+        <div>
+          <h2 id="generator-title" class="reveal">Натисни —<br>і отримай<br><em>геніальну маячню</em></h2>
+          <button class="idea-button magnetic reveal" type="button">
+            <span>Згенерувати</span><span aria-hidden="true">↻</span>
+          </button>
+        </div>
+        <div class="idea-card reveal" aria-live="polite">
+          <span class="idea-tag">ТВОЯ НАСТУПНА ІДЕЯ</span>
+          <p id="idea-output">Музей запахів<br>у вигляді<br>відеогри.</p>
+          <span class="idea-count">Випуск №<b>001</b></span>
+          <div class="idea-spark" aria-hidden="true">✦</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-pad" aria-labelledby="services-title">
+      <div class="section-label reveal"><span>04</span> Що можемо</div>
+      <h2 id="services-title" class="reveal">Майже все.<br><em>Нудне — ні.</em></h2>
+      <div class="service-list">
+        <details class="reveal">
+          <summary><span>01</span><strong>Айдентика, що не мовчить</strong><i>+</i></summary>
+          <p>Назва, голос, логотип, типографічна система й правила гри для сміливого бренду.</p>
+        </details>
+        <details class="reveal">
+          <summary><span>02</span><strong>Сайти з характером</strong><i>+</i></summary>
+          <p>Від першого враження до останньої мікроанімації — цілісний цифровий досвід.</p>
+        </details>
+        <details class="reveal">
+          <summary><span>03</span><strong>Креативні спецпроєкти</strong><i>+</i></summary>
+          <p>Інтерактивні історії, кампанії та експерименти, які не влазять у звичайний шаблон.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy">
+        <div class="section-label reveal"><span>05</span> Поговоримо?</div>
+        <h2 id="contact-title" class="reveal">Є дивна<br>ідея?</h2>
+        <button class="contact-button magnetic reveal" type="button" data-email="vitai@nenormalnoho.studio">
+          <span>Кинути нам сигнал</span><span>↗</span>
+        </button>
+        <p class="copy-status" aria-live="polite">Натисни — скопіюємо демонстраційну адресу</p>
+      </div>
+      <div class="contact-poster" aria-hidden="true">
+        <div class="poster-ring"></div>
+        <span class="poster-word p1">ТАК</span>
+        <span class="poster-word p2">ТАК</span>
+        <span class="poster-word p3">ТАК!</span>
+        <div class="poster-eye"><i></i></div>
+      </div>
+      <div class="footer-line">
+        <span>БЮРО НЕНOРМАЛЬНОГО © 2026</span>
+        <span>ЗРОБЛЕНО З ЛЮБОВ’Ю ДО ЛІТЕР «Ї» ТА «Ґ»</span>
+        <a href="#top">НАГОРУ ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
